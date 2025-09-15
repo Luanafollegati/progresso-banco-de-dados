@@ -9,3 +9,7 @@ CREATE TABLE artistas (
     musica_mais_ouvida VARCHAR(50),
     ativo BOOLEAN DEFAULT TRUE,
 );
+
+INSERT INTO artistas (nome, tipo, membros, genero_musical, pais_origem, ano_inicio, musica_mais_ouvida, ativo)
+VALUES
+('Now United', 'Banda', '14', 'Pop', 'Estados Unidos', 2017, 'Summer in the City', TRUE);
