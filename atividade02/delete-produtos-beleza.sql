@@ -7,3 +7,5 @@ WHERE preco < 30;
 DELETE FROM produtos 
 WHERE marca = 'mac';
 
+DELETE FROM produtos
+WHERE estoque > 100 AND estoque < 160;
